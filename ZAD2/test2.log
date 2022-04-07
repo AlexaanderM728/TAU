@@ -2258,3 +2258,9 @@
 2022-04-05 18:57:34,989 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1037dcd00>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b5260c7888a2bbf96877a39ab5fce906/element
 2022-04-05 18:57:34,990 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1037dc460>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b5260c7888a2bbf96877a39ab5fce906/element
 2022-04-05 18:57:34,991 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1037dc2b0>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/b5260c7888a2bbf96877a39ab5fce906/element
+2022-04-05 19:26:45,778 Test akceptacji pliku cookie, wyszukiwarki morele.net i próba zalogowania do serwisu. Oczekiwany rezultat: strona doda produkt do koszyka i nie odnajdzie uzytkownia o emialu :user1@mail.com.
+2022-04-07 15:49:07,453 Test akceptacji pliku cookie, wyszukiwarki morele.net i próba zalogowania do serwisu. Oczekiwany rezultat: strona doda produkt do koszyka i nie odnajdzie uzytkownia o emialu :user1@mail.com.
+2022-04-07 15:49:11,427 Znalesiono button Akceptuj cookie
+2022-04-07 15:49:14,429 akcepotowano polityke cookie
+2022-04-07 15:49:14,475 znaleziono wyszukiwarke strony
+2022-04-07 15:49:14,541 wpisano fraze

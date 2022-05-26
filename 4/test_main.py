@@ -5,13 +5,14 @@ from main import odejmowanie
 from main import pierwiastek
 
 
+
 class TestFunkcjaSilni(unittest.TestCase):
     def testSilnia(self):
         # silnia <0
         self.assertAlmostEqual(funkcja_silni(1), 1)
         self.assertAlmostEqual(funkcja_silni(0), 1)
 
-    def testValuesSlilnia(self):
+    def testValuesSilnia(self):
         self.assertRaises(ValueError, funkcja_silni, -2)
 
     def testTypesSilnia(self):
@@ -55,3 +56,7 @@ class TestPierwiastek(unittest.TestCase):
 
     def testValuePierwiastek(self):
         self.assertRaises(ValueError, pierwiastek, -2, 20)
+
+
+if __name__ == "__main__":
+    unittest.main()

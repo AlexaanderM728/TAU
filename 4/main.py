@@ -17,7 +17,7 @@ def odejmowanie(aa, bb):
 
 
 def pierwiastek(aa, bb):
-    return aa ** (1/bb)
+    return bb ** (1/aa)
 
 menu_options = {
     1: 'dodaj',

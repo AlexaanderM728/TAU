@@ -1,5 +1,6 @@
 import requests
 from termcolor import colored
+
 catparm = 'wtf'
 catparm2 = ''
 catjpg = '595f280f557291a9750ebfb7'

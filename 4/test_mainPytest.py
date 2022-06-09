@@ -9,13 +9,13 @@ testdataDodTE = [(1, 'true', 3), (0b1000, 5, 13)]
 testdataDodTV = [(-32767, 32767, 0), (5, 10, 15), (-2147483647, 2147483647, 0)]
 testdataOdod = [(2, 2, 0), (-8, -2, -6), (2, -7, 9)]
 testdataOdodTE = [(2, 0b10, 0), (-8, --2, -6), ('2', -7, 9)]
-testdataOdodTV = [(-32767, 32767, -65534 ), (5, 10, -5), (-2147483647, 2147483647, -4294967294)]
+testdataOdodTV = [(-32767, 32767, -65534), (5, 10, -5), (-2147483647, 2147483647, -4294967294)]
 testdataSilnia = [(1, 1), (0, 1)]
-testdataSilniaTE = [(3 + 8j, 1), ('0', None)]
+testdataSilniaTE = [(3 + 8j, 1), ('0', 1)]
 testdataSilniaTV = [(3 + 8j, 1), (-1, None)]
-testSqrt = [(3, 27, 3.0), (2, 4, 2.0), (8, 1, 1.0)]
+testSqrt = [(3, 27, 3.0), (4, 2, 2.0), (8, 1, 1.0)]
 testSqrtTE = [(0b11, 27, 3.0), ("2", 4, 2.0)]
-testSqrtTV = [(-3, 27, 3.0), (-2, 4, 0.5)]
+testSqrtTV = [(27, 3, 3.0), (-2, 4, 0.5)]
 
 
 @pytest.mark.parametrize("num1, num2, result", testdataDod)
